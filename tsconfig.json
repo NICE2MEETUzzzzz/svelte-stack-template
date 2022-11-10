@@ -23,7 +23,14 @@
         "forceConsistentCasingInFileNames": true,
         "baseUrl": ".",
         "allowJs": true,
-        "checkJs": true
+        "checkJs": true,
+        "paths": {
+            "@styles/*": ["./src/styles/*"],
+            "@shared": ["./src/components/shared/index.ts"],
+            "@shared/*": ["./src/components/shared/*"],
+            "@modules": ["./src/components/modules"],
+            "@modules/*": ["./src/components/modules/*"]
+        }
     },
     "include": [
         "src/**/*.d.ts",

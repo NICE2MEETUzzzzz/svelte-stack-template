@@ -2,6 +2,7 @@
 import { sveltekit } from '@sveltejs/kit/vite'
 
 import { partytownVite } from '@builder.io/partytown/utils'
+
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 

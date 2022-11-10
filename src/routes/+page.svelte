@@ -1,6 +1,8 @@
 <script lang="ts">
-    let count = 0
+    import { OpenGraph } from '@shared'
 </script>
+
+<OpenGraph title="Nicez | Home" description="Nicez | Description Home" />
 
 <main class="relative">
     <div class="absolute top-[25rem] right-0 left-[50rem]">

@@ -15,7 +15,10 @@ const config = {
     kit: {
         adapter: adapter(),
         alias: {
-            '@styles': './src/styles'
+            '@styles': './src/styles',
+            '@components': './src/components',
+            '@shared': './src/components/shared',
+            '@modules': './src/components/modules'
         }
     }
 }
