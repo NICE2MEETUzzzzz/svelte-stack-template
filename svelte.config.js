@@ -7,7 +7,8 @@ const config = {
     // for more information about preprocessors
     preprocess: preprocess({
         scss: true,
-        postcss: true
+        postcss: true,
+        preserve: ['partytown']
     }),
 
     target: '#svelte',

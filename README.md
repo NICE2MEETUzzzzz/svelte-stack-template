@@ -11,5 +11,6 @@ Featuring:
 -   Eslint
 -   TypeScript
 -   Path alias
+-   Party Town
 -   PWA (soon)
 -   Docker (soon)
