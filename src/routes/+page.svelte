@@ -3,7 +3,5 @@
 </script>
 
 <main>
-    <img src="/assets/images/a.png" alt="test" />
-    <h1>Value {count}</h1>
-    <button on:click={() => count++}>Click</button>
+    <h1 class="text-3xl font-bold underline">Hello world!</h1>
 </main>
