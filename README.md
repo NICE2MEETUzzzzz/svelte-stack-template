@@ -12,5 +12,5 @@ Featuring:
 -   TypeScript
 -   Path alias
 -   Party Town
--   PWA (soon)
+-   PWA
 -   Docker (soon)

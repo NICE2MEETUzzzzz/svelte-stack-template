@@ -1,7 +1,7 @@
 <script lang="ts">
     import { page } from '$app/stores'
 
-    let urlPath = `http://localhost:3000/${$page.url.pathname}`
+    let urlPath = `http://localhost:3000${$page.url.pathname}`
 
     let name = 'nicez'
     // let twitterDevAccount = '@nicez'
@@ -11,7 +11,7 @@
 
     export let description = 'nicez'
     export let author = 'nicez'
-    export let icon = '/favicon.png'
+    export let icon = '/assets/icon/icon.png'
     export let createdAt: number | null = null
 
     export let image = {

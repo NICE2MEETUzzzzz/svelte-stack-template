@@ -1,4 +1,4 @@
-// vite.config.js
+/// <reference types="@sveltejs/kit" />
 import { sveltekit } from '@sveltejs/kit/vite'
 
 import { partytownVite } from '@builder.io/partytown/utils'
