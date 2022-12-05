@@ -13,6 +13,5 @@
             forward: ['dataLayer.push']
         }
     </script>
-
     <script bind:this={scriptEl}></script>
 </svelte:head>
